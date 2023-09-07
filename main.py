@@ -13,15 +13,17 @@
 #Students will receive basic python code and they will piece together the solution. If a student cannot complete this activity they should provide pseudocode of what they imagine the solution to be. 
 #--------write your code below ----- #
 
+
+x=0
 stars = "**"
-stars += "**" # will add two star characters into stars 
-x = 0 
-python function string[start:end]
+#print(stars)
 
 if (x<5):
-  print(stars)
-  #for loop
-  draw top half
-else:
-  draw bottom half
-
+    for i in range(6):
+        print(stars*x)
+        x+=1
+x-=1
+for i in range(6):
+    x-=1
+    print(stars*x)
+   
