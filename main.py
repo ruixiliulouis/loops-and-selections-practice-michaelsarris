@@ -14,16 +14,14 @@
 #--------write your code below ----- #
 
 
-x=0
-stars = "**"
-#print(stars)
+Step 1: declare num  0, stars  “**”
+Step 2: create a loop to repeat total_lines_times
+Step 3: create and if else statement to be able to
+‘select’ the top half and bottom half of the print
+statements. Write conditional statement using i
+Step 4 Increase num if i is less than half_total_lines
+Step 5. use num to multiple times stars
+DISPLAY (stars x num)
+Step 6. else decrease num by 1
+Step 7. DISPLAY (stars x num)
 
-if (x<5):
-    for i in range(6):
-        print(stars*x)
-        x+=1
-x-=1
-for i in range(6):
-    x-=1
-    print(stars*x)
-   
