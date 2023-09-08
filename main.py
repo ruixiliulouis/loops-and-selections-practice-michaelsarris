@@ -25,3 +25,13 @@ DISPLAY (stars x num)
 Step 6. else decrease num by 1
 Step 7. DISPLAY (stars x num)
 
+num =0
+stars ="**"
+
+for i in range(10):
+    if(i<5):
+        print(stars*num)
+        num+=1
+    else:
+        print(stars*num)
+        num-=1
